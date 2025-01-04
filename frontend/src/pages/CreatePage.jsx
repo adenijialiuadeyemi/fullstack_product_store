@@ -46,7 +46,7 @@ const CreatePage = () => {
             onChange={(e) => setProduct({ ...Product, name: e.target.value })}
             rounded={10}
           />
-          <Input placeholder={'Product Name'}
+          <Input placeholder={'Price'}
             size={'lg'}
             width={['100%', '50%']}
             name={'price'}
@@ -54,7 +54,7 @@ const CreatePage = () => {
             onChange={(e) => setProduct({ ...Product, price: e.target.value })}
             rounded={10}
           />
-          <Input placeholder={'Product Name'}
+          <Input placeholder={'Image URL'}
             size={'lg'}
             width={['100%', '50%']}
             name={'image'}

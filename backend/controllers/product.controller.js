@@ -38,7 +38,7 @@ export const createProduct = async (req, res) => {
     })
   }
   catch (err) {
-    console.log(`Errorin creating product: ${err.message}`)
+    console.log(`Error in creating product: ${err.message}`)
     res.status(500).json({
       success: false,
       message: "Server Error"
